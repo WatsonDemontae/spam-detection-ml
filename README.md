@@ -29,7 +29,7 @@ train/test split ratios (70/30, 90/10).
 ### 90/10 Split
 ![ROC Curve 90/10](ROC_Curve_90_10.png)
 
-## Key Results
+## Key Results & Findings
 | Metric | LR (70/30) | NB (70/30) | LR (90/10) | NB (90/10) |
 |---|---|---|---|---|
 | Accuracy | 94.6% | 97.7% | 96.3% | 98.3% |
@@ -37,6 +37,5 @@ train/test split ratios (70/30, 90/10).
 | Recall | 57.7% | 82.1% | 72.3% | 86.2% |
 | F1 Score | 72.9% | 89.9% | 83.2% | 92.6% |
 
-## Key Finding
 Naive Bayes outperformed Logistic Regression across every metric,
 particularly recall — catching significantly more actual spam.
